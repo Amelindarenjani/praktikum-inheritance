@@ -10,6 +10,7 @@ class Bapak {
 
 class Anak extends Bapak{
     int c;
+    @Override
     void show_variabel(){
        System.out.println("Nilai a="+a);
        System.out.println("Nilai b="+b);
